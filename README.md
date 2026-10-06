@@ -79,7 +79,7 @@ I regressed each country's symmetric RCA in 2024 on its 1989 RCA, across all pro
 \*The Atlas has no Japanese services before 1996, so Japan's goods + services figure is not like for like. The goods-only column, which recomputes RCA with goods-only totals for every country, is comparable across all seven.
 
 - **The UK is the second least persistent G7 economy.** Only the US has changed more.
-- **This differs from the report**, which found the UK did not stand out. Its 2019-on-1989 slope for the UK was about 0.6; mine is 0.61, so the methods agree. The difference is the comparison: France, Germany and Italy are more persistent in this data.
+- **This differs from the report**, which found the UK's persistence did not stand out among its peers (Figure 14, which compares the UK with Germany, France, the US, China and the OECD). My 2019-on-1989 slope for the UK is 0.61. In this data, Germany and France are both clearly more persistent than the UK.
 - **The rank order is the same with or without services.** So the result isn't driven by the services data gaps.
 - **Slope below 1 means regression to the mean.** UK strengths in 1989 have weakened on average, and weaknesses have become less weak.
 - **The UK fit line sits below the diagonal (intercept −0.18).** Most UK goods have lost ground relative to the world, consistent with the UK's shift towards services.
