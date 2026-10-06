@@ -4,7 +4,8 @@ Replicates the method in Resolution Foundation, "Enduring strengths" (April
 2022), Box 1 and Annex 1, and extends it to 2024:
 
 * Goods: Atlas SITC Rev.2, 2-digit divisions.
-* Services: Atlas "unilateral" services, 4 broad categories.
+* Services: Atlas "unilateral" services, 4 broad categories (from 1980), or,
+  as a comparison, OECD-WTO BATIS, 12 EBOPS categories (from 2005).
 * Goods and services are pooled, so each country's total exports (and the
   world's) include both, and all products are ranked on one list.
 
@@ -13,8 +14,8 @@ RCA (Balassa) for country c and product p in year t:
     RCA = (X_cp / X_c) / (X_wp / X_w)
 
 where X_c is c's total exports and w is the world, i.e. the sum over every
-reporter in the Atlas (the Atlas files contain countries only, no regional
-aggregates, so this does not double count).
+reporter (the Atlas files contain countries only, and BATIS aggregates are
+excluded, so this does not double count).
 
 The symmetric version used throughout the report maps RCA onto (-1, 1):
 

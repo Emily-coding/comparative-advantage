@@ -70,11 +70,15 @@ def main() -> None:
         ids = ids_cache[doi]
         # format=original returns the CSV as uploaded rather than Dataverse's tab-separated copy
         url = f"{DATAVERSE}/access/datafile/{ids[name]}"
+        # Write to a .part file and rename at the end, so an interrupted
+        # download is never mistaken for a cached, complete file.
+        tmp = out.with_suffix(".part")
         with requests.get(url, params={"format": "original"}, headers=HEADERS, stream=True, timeout=300) as r:
             r.raise_for_status()
-            with open(out, "wb") as f:
+            with open(tmp, "wb") as f:
                 for chunk in r.iter_content(1 << 20):
                     f.write(chunk)
+        tmp.replace(out)
         print(f"fetched  {name}")
 
     out = RAW / "batis_exports_world.csv"

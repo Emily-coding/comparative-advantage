@@ -89,7 +89,7 @@ RCA_sym = (RCA − 1) / (RCA + 1)        # continuous, between −1 and 1
 - The category the report calls "ICT" is now labelled *Business services* and is far larger: about $6.8tn of world exports in 2024.
 - Much of the UK's professional services exports now sit in "unspecified" services: $235bn of UK exports in 2024.
 
-Because the report's method drops "unspecified", this lowers UK services in the totals. A sensitivity check keeps "unspecified" in the totals (still out of the ranking): every RCA value falls by about 0.07–0.10, but the top 10 and its order don't change. Both are in `outputs/uk_top10_comparison.md`.
+Because the report's method drops "unspecified", this lowers UK services in the totals. A sensitivity check keeps "unspecified" in the totals (still out of the ranking): every symmetric RCA value falls by about 0.07–0.10, but the top 10 and its order don't change. Both are in `outputs/uk_top10_comparison.md`.
 
 **Other transport equipment (SITC 79).** Before 2014, most UK aircraft exports were recorded under SITC 93 ("special transactions"), apparently because of HMRC's suppression of confidential trade codes:
 
