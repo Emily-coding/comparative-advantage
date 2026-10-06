@@ -57,6 +57,41 @@ BATIS starts in 2005, so this version can't test the 1989 claim directly.
 
 ![UK RCA dot plot, BATIS services](outputs/uk_rca_dot_plot_batis.png)
 
+## Persistence: 1989 vs 2024, UK and G7
+
+The top 10 is sticky, but the UK's specialisation across *all* products has changed more than most of the G7.
+
+I regressed each country's symmetric RCA in 2024 on its 1989 RCA, across all products (unweighted OLS, as in the report's Figure 14). Two exclusions:
+
+- the volatile categories the report drops from its ranking
+- any product with zero exports in either year (for a G7 economy, that's missing data rather than a real zero)
+
+| Country | R², goods + services | Slope (95% CI) | R², goods only |
+|---|---:|---|---:|
+| Japan* | 0.70 | 0.82 (0.69–0.96) | 0.68 |
+| Canada | 0.58 | 0.74 (0.58–0.89) | 0.57 |
+| Germany | 0.56 | 0.76 (0.59–0.92) | 0.57 |
+| Italy | 0.52 | 0.72 (0.55–0.90) | 0.54 |
+| France | 0.52 | 0.76 (0.58–0.95) | 0.52 |
+| **UK** | **0.36** | **0.58 (0.39–0.77)** | **0.34** |
+| US | 0.29 | 0.48 (0.29–0.66) | 0.31 |
+
+\*The Atlas has no Japanese services before 1996, so Japan's goods + services figure is not like for like. The goods-only column, which recomputes RCA with goods-only totals for every country, is comparable across all seven.
+
+- **The UK is the second least persistent G7 economy.** Only the US has changed more.
+- **This differs from the report**, which found the UK did not stand out. Its 2019-on-1989 slope for the UK was about 0.6; mine is 0.61, so the methods agree. The difference is the comparison: France, Germany and Italy are more persistent in this data.
+- **The rank order is the same with or without services.** So the result isn't driven by the services data gaps.
+- **Slope below 1 means regression to the mean.** UK strengths in 1989 have weakened on average, and weaknesses have become less weak.
+- **The UK fit line sits below the diagonal (intercept −0.18).** Most UK goods have lost ground relative to the world, consistent with the UK's shift towards services.
+
+Full results, including 2019 on 1989, are in `outputs/persistence_g7.csv`.
+
+![UK 1989 vs 2024](outputs/uk_rca_1989_vs_2024.png)
+
+![G7 1989 vs 2024](outputs/g7_rca_1989_vs_2024.png)
+
+![G7 persistence R²](outputs/g7_persistence_r2.png)
+
 ## Method
 
 RCA follows the report's Box 1. It compares the share of a country's total exports accounted for by a good or service with that good or service's share of total world exports:
@@ -104,7 +139,8 @@ Because the report's method drops "unspecified", this lowers UK services in the 
 ```bash
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 .venv/bin/python src/download.py   # Atlas (Harvard Dataverse) + BATIS (OECD SDMX). No API keys needed.
-.venv/bin/python src/report.py     # writes everything in outputs/
+.venv/bin/python src/report.py       # top-10 comparison, RCA tables and charts
+.venv/bin/python src/persistence.py  # 1989 vs 2024 regressions for the UK and G7
 ```
 
 | Output | Contents |
@@ -114,6 +150,7 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 | `outputs/rca_uk_1980_2024.csv` | UK RCA for every product, every year (Atlas only) |
 | `outputs/rca_all_countries_1989_2019_2024.csv` | All countries, Atlas only |
 | `outputs/rca_batis_all_countries_2005_2019_2024.csv` | All countries, Atlas goods + BATIS services |
+| `outputs/persistence_g7.csv` | G7 regressions of 2019 and 2024 RCA on 1989: slope, CI, R², n |
 
 ## Sources
 
