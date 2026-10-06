@@ -1,0 +1,111 @@
+variant,source,year,rank,product,product_name,rca,rca_sym
+main,recomputed,1989,1,11,Beverages,3.4395832702907776,0.549507267183434
+main,recomputed,1989,2,54,Medicinal and pharmaceutical products,2.4526918185412443,0.42074181389145926
+main,recomputed,1989,3,financial,Financial services,2.340196664310037,0.40123286111564116
+main,recomputed,1989,4,71,Power generating machinery and equipment,2.2769007190447983,0.3896671973074024
+main,recomputed,1989,5,53,"Dyeing, tanning and colouring materials",2.044826092590982,0.34314803565739666
+main,recomputed,1989,6,55,Oils and perfume materials; toilet and cleansing preparations,2.014510815177417,0.3365424366930688
+main,recomputed,1989,7,59,"Chemical materials and products, nes",1.9827909394515493,0.3294870339227518
+main,recomputed,1989,8,87,"Professional, scientific, controlling instruments, apparatus, nes",1.9113790199037801,0.3130403199559708
+main,recomputed,1989,9,51,Organic chemicals,1.8090355766643773,0.28801186549053115
+main,recomputed,1989,10,75,Office machines and automatic data processing equipment,1.697882303185589,0.2586778164345968
+main,recomputed,2019,1,financial,Financial services,3.5422211851700642,0.5596867879244154
+main,recomputed,2019,2,11,Beverages,3.4086493920827143,0.5463463246608574
+main,recomputed,2019,3,71,Power generating machinery and equipment,3.2760706190763766,0.5322808769626923
+main,recomputed,2019,4,79,Other transport equipment,1.9404200641590397,0.31982507384637915
+main,recomputed,2019,5,54,Medicinal and pharmaceutical products,1.7418299721556467,0.27056016590715676
+main,recomputed,2019,6,53,"Dyeing, tanning and colouring materials",1.5258777829140355,0.2081960522679545
+main,recomputed,2019,7,55,Oils and perfume materials; toilet and cleansing preparations,1.497384835374782,0.19916227100023198
+main,recomputed,2019,8,68,Non-ferrous metals,1.3693100883532614,0.15587241626525236
+main,recomputed,2019,9,41,Animal oils and fats,1.3497852104016244,0.14885837601379712
+main,recomputed,2019,10,59,"Chemical materials and products, nes",1.270475624481165,0.11912729719041686
+main,recomputed,2024,1,71,Power generating machinery and equipment,3.936336228149037,0.594841212680131
+main,recomputed,2024,2,financial,Financial services,3.9071291785326525,0.5924297227084518
+main,recomputed,2024,3,11,Beverages,3.1355244247799656,0.5163853976980411
+main,recomputed,2024,4,79,Other transport equipment,1.8134248867545681,0.2891226599238966
+main,recomputed,2024,5,41,Animal oils and fats,1.5904510864942747,0.22793369447224252
+main,recomputed,2024,6,53,"Dyeing, tanning and colouring materials",1.400746719680531,0.16692586368871876
+main,recomputed,2024,7,55,Oils and perfume materials; toilet and cleansing preparations,1.3529923477152255,0.15001848521011293
+main,recomputed,2024,8,54,Medicinal and pharmaceutical products,1.3475647131733326,0.1480533044405452
+main,recomputed,2024,9,87,"Professional, scientific, controlling instruments, apparatus, nes",1.3049912335872516,0.1323177412317506
+main,recomputed,2024,10,68,Non-ferrous metals,1.2011618820656833,0.09138895403590337
+sensitivity_keep_unspecified,recomputed,1989,1,11,Beverages,3.461200749830328,0.5516902035677131
+sensitivity_keep_unspecified,recomputed,1989,2,54,Medicinal and pharmaceutical products,2.4681067717601715,0.4233164860189878
+sensitivity_keep_unspecified,recomputed,1989,3,financial,Financial services,2.3549045953394168,0.4038578614788718
+sensitivity_keep_unspecified,recomputed,1989,4,71,Power generating machinery and equipment,2.2912108406030347,0.3923209126178168
+sensitivity_keep_unspecified,recomputed,1989,5,53,"Dyeing, tanning and colouring materials",2.057677645452148,0.3459088131887579
+sensitivity_keep_unspecified,recomputed,1989,6,55,Oils and perfume materials; toilet and cleansing preparations,2.027171839175716,0.3393173211651605
+sensitivity_keep_unspecified,recomputed,1989,7,59,"Chemical materials and products, nes",1.9952526068096348,0.3322766849603776
+sensitivity_keep_unspecified,recomputed,1989,8,87,"Professional, scientific, controlling instruments, apparatus, nes",1.9233918696033316,0.3158631859124054
+sensitivity_keep_unspecified,recomputed,1989,9,51,Organic chemicals,1.8204052067886551,0.2908820352529336
+sensitivity_keep_unspecified,recomputed,1989,10,75,Office machines and automatic data processing equipment,1.7085533447232972,0.2615984455700954
+sensitivity_keep_unspecified,recomputed,2019,1,financial,Financial services,3.0282616214962594,0.5035079178255758
+sensitivity_keep_unspecified,recomputed,2019,2,11,Beverages,2.9140704647118363,0.48902299587310954
+sensitivity_keep_unspecified,recomputed,2019,3,71,Power generating machinery and equipment,2.8007282454848115,0.4737850562254853
+sensitivity_keep_unspecified,recomputed,2019,4,79,Other transport equipment,1.658874277663724,0.2478019676216725
+sensitivity_keep_unspecified,recomputed,2019,5,54,Medicinal and pharmaceutical products,1.4890986700475062,0.19649629640361801
+sensitivity_keep_unspecified,recomputed,2019,6,53,"Dyeing, tanning and colouring materials",1.3044801234992696,0.13212529819390567
+sensitivity_keep_unspecified,recomputed,2019,7,55,Oils and perfume materials; toilet and cleansing preparations,1.2801213680726842,0.12285370945383582
+sensitivity_keep_unspecified,recomputed,2019,8,68,Non-ferrous metals,1.1706296619330823,0.07860837107566558
+sensitivity_keep_unspecified,recomputed,2019,9,41,Animal oils and fats,1.153937751554114,0.07146805957741562
+sensitivity_keep_unspecified,recomputed,2019,10,59,"Chemical materials and products, nes",1.0861356119629475,0.04128955541960106
+sensitivity_keep_unspecified,recomputed,2024,1,71,Power generating machinery and equipment,3.226441717747273,0.5267886951802058
+sensitivity_keep_unspecified,recomputed,2024,2,financial,Financial services,3.202501983468291,0.5240930265190699
+sensitivity_keep_unspecified,recomputed,2024,3,11,Beverages,2.570051495799858,0.43978399125251083
+sensitivity_keep_unspecified,recomputed,2024,4,79,Other transport equipment,1.4863846398043357,0.19561922641325974
+sensitivity_keep_unspecified,recomputed,2024,5,41,Animal oils and fats,1.3036228203286797,0.1318023148795509
+sensitivity_keep_unspecified,recomputed,2024,6,53,"Dyeing, tanning and colouring materials",1.1481304925265639,0.0689578650095588
+sensitivity_keep_unspecified,recomputed,2024,7,55,Oils and perfume materials; toilet and cleansing preparations,1.108988333680511,0.05167801639296391
+sensitivity_keep_unspecified,recomputed,2024,8,54,Medicinal and pharmaceutical products,1.1045395403103158,0.04967335529124881
+sensitivity_keep_unspecified,recomputed,2024,9,87,"Professional, scientific, controlling instruments, apparatus, nes",1.0696439311334582,0.0336501994791525
+sensitivity_keep_unspecified,recomputed,2024,10,68,Non-ferrous metals,0.9845395772725687,-0.007790433057867851
+batis_services,recomputed,2005,1,SG,Financial services,4.837969555789824,0.6574151370802381
+batis_services,recomputed,2005,2,SF,Insurance and pension services,4.000400996249278,0.6000320771273807
+batis_services,recomputed,2005,3,SK,"Personal, cultural and recreational services",2.7868030265469157,0.4718500048776642
+batis_services,recomputed,2005,4,SJ,Other business services,2.557592731138881,0.4378221029927318
+batis_services,recomputed,2005,5,11,Beverages,2.2139672933082895,0.3777161316594156
+batis_services,recomputed,2005,6,SI,"Telecommunications, computer and information services",2.044674144065261,0.3431152545836672
+batis_services,recomputed,2005,7,71,Power generating machinery and equipment,1.8578932536641848,0.30018379887501256
+batis_services,recomputed,2005,8,54,Medicinal and pharmaceutical products,1.5942875980303615,0.22907544964619853
+batis_services,recomputed,2005,9,SH,Charges for the use of intellectual property,1.4801396016411266,0.19359378049663603
+batis_services,recomputed,2005,10,55,Oils and perfume materials; toilet and cleansing preparations,1.390979650606082,0.1635227846907747
+batis_services,recomputed,2019,1,SG,Financial services,4.497922261518092,0.6362262133099427
+batis_services,recomputed,2019,2,SF,Insurance and pension services,2.8237994355533877,0.4769600148469722
+batis_services,recomputed,2019,3,SK,"Personal, cultural and recreational services",2.5035378298210103,0.42914845018180475
+batis_services,recomputed,2019,4,SJ,Other business services,2.4893841569282404,0.42683295674712085
+batis_services,recomputed,2019,5,11,Beverages,2.3067909067353187,0.39518401483251586
+batis_services,recomputed,2019,6,71,Power generating machinery and equipment,2.217068710986028,0.37831604492308085
+batis_services,recomputed,2019,7,SI,"Telecommunications, computer and information services",1.7554612915087406,0.27416871862318604
+batis_services,recomputed,2019,8,SB,Maintenance and repair services,1.4640769887221776,0.18833704906389268
+batis_services,recomputed,2019,9,SH,Charges for the use of intellectual property,1.450534293233595,0.18385145414108603
+batis_services,recomputed,2019,10,79,Other transport equipment,1.3131721231422613,0.13538643320534302
+batis_services,recomputed,2024,1,SG,Financial services,4.794112601151799,0.6548220344212116
+batis_services,recomputed,2024,2,SF,Insurance and pension services,3.563623405107964,0.5617517436339196
+batis_services,recomputed,2024,3,SJ,Other business services,2.6783878770624927,0.45628354952138134
+batis_services,recomputed,2024,4,71,Power generating machinery and equipment,2.6069980770334094,0.445522299350681
+batis_services,recomputed,2024,5,SK,"Personal, cultural and recreational services",2.408507399483991,0.4132329006230771
+batis_services,recomputed,2024,6,11,Beverages,2.0766280297494863,0.34993766530728465
+batis_services,recomputed,2024,7,SH,Charges for the use of intellectual property,1.812851839357231,0.28897783665099724
+batis_services,recomputed,2024,8,SI,"Telecommunications, computer and information services",1.7696011875251294,0.27787437086306005
+batis_services,recomputed,2024,9,SD,Travel,1.2997158662167443,0.13032734635596785
+batis_services,recomputed,2024,10,79,Other transport equipment,1.2010140695823435,0.09132793486435423
+,published,1989,,financial,Financial services,,
+,published,1989,,11,Beverages,,
+,published,1989,,59,"Chemical materials and products, nes",,
+,published,1989,,53,"Dyeing, tanning and colouring materials",,
+,published,1989,,87,"Professional, scientific, controlling instruments, apparatus, nes",,
+,published,1989,,54,Medicinal and pharmaceutical products,,
+,published,1989,,75,Office machines and automatic data processing equipment,,
+,published,1989,,79,Other transport equipment,,
+,published,1989,,55,Oils and perfume materials; toilet and cleansing preparations,,
+,published,1989,,71,Power generating machinery and equipment,,
+,published,2019,,41,Animal oils and fats,,
+,published,2019,,11,Beverages,,
+,published,2019,,53,"Dyeing, tanning and colouring materials",,
+,published,2019,,financial,Financial services,,
+,published,2019,,ict,ICT,,
+,published,2019,,54,Medicinal and pharmaceutical products,,
+,published,2019,,79,Other transport equipment,,
+,published,2019,,55,Oils and perfume materials; toilet and cleansing preparations,,
+,published,2019,,71,Power generating machinery and equipment,,
+,published,2019,,transport,Transport,,
